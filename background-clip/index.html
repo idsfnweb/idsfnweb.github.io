@@ -1,0 +1,397 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>How To create a translucent border or padding without background color</title>
+    <meta name="description" content="By specifying the painting area, we can create a translucent border or add padding to the background (padding without background color), and much more">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=2b1c204c9a">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="Z pyro">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="How To create a translucent border or padding without background color">
+    <meta property="og:description" content="By specifying the painting area, we can create a translucent border or add padding to the background (padding without background color), and much more">
+    <meta property="og:url" content="http://localhost:2368/background-clip/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2017/02/pexels-photo-68357-min.jpeg">
+    <meta property="article:published_time" content="2016-11-20T15:16:30.000Z">
+    <meta property="article:modified_time" content="2017-02-19T20:38:14.000Z">
+    <meta property="article:tag" content="CSS">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/n3d41">
+    <meta property="article:author" content="https://www.facebook.com/NedalKouissi">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How To create a translucent border or padding without background color">
+    <meta name="twitter:description" content="By specifying the painting area, we can create a translucent border or add padding to the background (padding without background color), and much more">
+    <meta name="twitter:url" content="http://localhost:2368/background-clip/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2017/02/pexels-photo-68357-min.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="NedalKouissi">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="CSS">
+    <meta name="twitter:site" content="@n3d41">
+    <meta name="twitter:creator" content="@n3d41">
+    <meta property="og:image:width" content="4128">
+    <meta property="og:image:height" content="2322">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Z pyro",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "NedalKouissi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg",
+            "width": 1600,
+            "height": 1067
+        },
+        "url": "http://localhost:2368/author/n3d41/",
+        "sameAs": [
+            "http://zpyro.com",
+            "https://www.facebook.com/NedalKouissi",
+            "https://twitter.com/n3d41"
+        ],
+        "description": "Front-end developer, Sound designer, Music producer.\n"
+    },
+    "headline": "How To create a translucent border or padding without background color",
+    "url": "http://localhost:2368/background-clip/",
+    "datePublished": "2016-11-20T15:16:30.000Z",
+    "dateModified": "2017-02-19T20:38:14.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2017/02/pexels-photo-68357-min.jpeg",
+        "width": 4128,
+        "height": 2322
+    },
+    "keywords": "CSS",
+    "description": "By specifying the painting area, we can create a translucent border or add padding to the background (padding without background color), and much more",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Z pyro" href="../rss/index.html">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-87754132-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://i')
+          + '.po.st/static/v4/post-widget.js#publisherKey=u6ti0jqdeftdmveo8ml5';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+     })();
+</script>
+</head>
+<body class="post-template tag-css nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-css" role="presentation"><a href="../tag/css/">CSS</a></li>
+            <li class="nav-javascript" role="presentation"><a href="../tag/javascript/">JavaScript</a></li>
+            <li class="nav-git-github" role="presentation"><a href="../tag/git/">Git &amp; Github</a></li>
+            <li class="nav-video-tutorials" role="presentation"><a href="http://www.youtube.com/channel/UCdb_IhnfM39bL2964cmPWNA?sub_confirmation=1">Video tutorials</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(../content/images/2017/02/pexels-photo-68357-min.jpeg)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-css">
+
+        <header class="post-header">
+            <h1 class="post-title">How To create a translucent border or padding without background color</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-11-20">20 November 2016</time>  on <a href="../tag/css/">CSS</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>You can read and watch previous episodes <a href="http://www.zpyro.com/tag/css/">here</a>.</p>
+
+<h4 id="part1whatstheproblem">Part1. What's the problem ?</h4>
+
+<p>Applying a translucent dotted border to a solid background.</p>
+
+<script async src="http://jsfiddle.net/kk6zyw1u/4/embed/html,result/"></script>
+
+<p>Above is a visual to understand the problem easily, click on <em>results button</em> to see what I'm talking about.</p>
+
+<ul>
+<li>box1 <em>(I applied dotted border)</em></li>
+<li>box2 (I tried to make it translucent, but the background is underneath, Oh snap!)</li>
+<li>box3 <em>(Problem fixed, no *background</em> vs <em>border</em> clash!)*</li>
+<li>box4 <em>(I added padding, see how padding didn't get painted)</em></li>
+</ul>
+
+<p>I'll explain how I did it from <em>box2</em> to <em>box3</em> &amp; <em>box4</em>, after that, we will apply our knowledge to create something interesting <em>like you see below!</em></p>
+
+<script async src="http://jsfiddle.net/y4de2yjv/2/embed/html,css,result/"></script>
+
+<blockquote>
+  <p>Sounds good ?</p>
+</blockquote>
+
+<iframe src="http://giphy.com/embed/3oz8xQQP4ahKiyuxHy" width="100%" height="352" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+
+<h4 id="part2howtoachieveatranslucentborder">Part2. How to achieve a translucent border ?</h4>
+
+<p>let's start with a red box</p>
+
+<script async src="http://jsfiddle.net/dhf097uo/embed/css,result/"></script>
+
+<p>then let's add a solid blue border</p>
+
+<script async src="http://jsfiddle.net/dhf097uo/1/embed/css,result/"></script>
+
+<p>after that let's make it a bit translucent, to do that we must convert <code>HEX</code> to <code>HSLA</code> or <code>RGBA</code>, that way we can control the <em>opacity</em>.</p>
+
+<p><code>#34495e</code> is equal to <code>rgba(52, 73, 94, 1)</code></p>
+
+<p>now replace the old HEX value within your <em>border</em> parameters, and choose the suitable opacity, something like this</p>
+
+<script async src="http://jsfiddle.net/dhf097uo/2/embed/css,result/"></script>
+
+<p>Now we need to fix that <strong>border</strong> vs <strong>background</strong> clach</p>
+
+<p>By default the <code>background-color</code> paints</p>
+
+<ul>
+<li>The Content Box</li>
+<li>The Padding Box</li>
+<li>&amp; The Border Box</li>
+</ul>
+
+<blockquote>
+  <p>All at once, DAMN!</p>
+</blockquote>
+
+<p>Below is the <em>CSS Box Model</em>, so you could see what I'm talking about.</p>
+
+<p><img src="http://jharaphula.com/wp-content/uploads/2016/05/box-model.gif" alt="CSS Box Model"></p>
+
+<p>Also, you can inspect using the <em>developer tools</em> what we've just designed, to see clearly the box model in action</p>
+
+<p><img src="https://s3.amazonaws.com/blog.thewcc.com/20160728014006/inspect-element-box-model.png" alt="Box Model in devoloper tools"></p>
+
+<p>All we need to do is to change that behavior, we can specify where the <em>painting</em> must stop by using <em>background-clip</em>.</p>
+
+<p>Here's all the properties that background-clip can take <br>
+<code>background-clip: border-box|padding-box|content-box|initial|inherit;</code></p>
+
+<p>Okay, back to our code, let's add <code>background-clip: padding-box;</code></p>
+
+<script async src="http://jsfiddle.net/dhf097uo/3/embed/css,result/"></script>
+
+<p>Cool, but what if I added a little bit of padding to the box? <br>
+The box will grow and that extra space will be painted in red :D, if this is not what you desire, go ahead and change <em>background-clip</em>.</p>
+
+<p><code>background-clip: content-box;</code></p>
+
+<p>this is the end result</p>
+
+<script async src="http://jsfiddle.net/dhf097uo/4/embed/css,result/"></script>
+
+<p>Now, let's create something cool and interesting. <em>but this time I want you to code with me.</em></p>
+
+<p>This is what we gonna create (don't forget to hover)</p>
+
+<script async src="http://jsfiddle.net/y4de2yjv/2/embed/css,result/"></script>
+
+<p><mark>Remember all episodes are about practical learning.</mark></p>
+
+<iframe src="http://giphy.com/embed/XdzAYATLJjSNO?html5=true" width="100%" height="420" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+
+<h4 id="part3applytheknowledge">Part3. Apply the knowledge.</h4>
+
+<p>let's start with a simple <code>F</code> letter</p>
+
+<p><code>&lt;h2&gt;F&lt;/h2&gt;</code></p>
+
+<p>I'm kinda trying to create a social <code>facebook</code> button, so probably you should wrap F in <code>&lt;a&gt;</code> tag.</p>
+
+<p>Next, I want to add a light blue background and color <code>F</code> with dark blue</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/1/embed/css,result/"></script>
+
+<p>as you see, <code>F</code>, ain't in the center, let's center it <em>Horizontally</em> and <em>vertically</em>.</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/2/embed/css,result/"></script>
+
+<p>Cool, I guess it's time to add a tiny hover effect to our button. <br>
+On hover the background and the letter will switch colors, also the mouse cursor will change to <code>pointer</code> <br>
+as you see below.</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/3/embed/css,result/"></script>
+
+<p>it'll be much better if we slow down the transition, <br>
+also adding <code>ease-in-out</code> will make it so smooth.</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/4/embed/css,result/"></script>
+
+<p>Nice, let's add <code>border</code> to the left and a little of bit of <code>padding</code> to separate the left <em>border</em> with the actual <em>background</em>.</p>
+
+<pre><code>border-left: 0.1em solid #3b5999;  
+padding-left: 0.1em;  
+</code></pre>
+
+<p>You'll notice that <code>padding-left</code> didn't actually create any separation. WHY ? <br>
+I guess you already know, but if you didn't follow part1, the <code>background</code> paints the whole <code>CSS Box Model</code> by default, including the padding box and the border box.</p>
+
+<p>That's why you saw an increase in size but you didn't see any separation between the border and the background. <br>
+And as I said before to change this behavior we need to use <code>background-clip</code>.</p>
+
+<p>After adding <code>background-clip: content-box;</code> that's what we have so far, as a result</p>
+
+<p><mark>Note.</mark> I changed <code>padding-left</code> to a higher value to make it obvious.</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/5/embed/css,result/"></script>
+
+<p>Inside <code>h2:hover</code> let's add this</p>
+
+<pre><code>padding-left: 0;  
+transition: background 0.3s ease-in-out,  
+            padding 0.2s linear;
+</code></pre>
+
+<p>setting padding to <code>O</code> and adding a bit of transition will make the button move toward the <em>border</em> in a slick motion.</p>
+
+<p>but wait, where's the border ?</p>
+
+<p>the <em>border</em> now is in the same background color, so let's give it a different color.</p>
+
+<p>´border-left: 0.2em solid #ecf0f1;´</p>
+
+<p>By far this is what we have</p>
+
+<script async src="http://jsfiddle.net/5nzt4r41/6/embed/css,result/"></script>
+
+<p>If you still remember the result I've introduced at the end of  <em>Part2</em> is different than what we accomplished right now.</p>
+
+<p>Your task now is to complete it until you create something similar to this</p>
+
+<script async src="http://jsfiddle.net/y4de2yjv/5/embed/html,css,result/"></script>
+
+<p><mark>Hint.</mark> The <em>border</em> must increase in size, so it'll look like we are moving to the right, also change the color to white, that way it'll appear like it disappears.</p>
+
+<p><em>Please don't look at the code unless you try, so it'll get stuck to your brain.</em></p>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>See you in episode 3, soon I'll introduce exercises and projects :)</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/n3d41/" style="background-image: url(../content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg)"><span class="hidden">NedalKouissi's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/n3d41/">NedalKouissi</a></h4>
+
+                    <p>Front-end developer, Sound designer, Music producer.
+</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">USA</span>
+                    <span class="author-link icon-link"><a href="http://zpyro.com">http://zpyro.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=How%20To%20create%20a%20translucent%20border%20or%20padding%20without%20background%20color&amp;url=http://localhost:2368/background-clip/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/background-clip/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/background-clip/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(../content/images/2017/02/pexels-photo-87322.jpeg)" href="../how-to-add-depth-to-your-design-using-multiple-borders/">
+        <section class="post">
+            <h2>How to add depth to your design using multiple borders</h2>
+            <p>You can read and watch previous episodes here! Is there any use cases? Back in the days, they were…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(../content/images/2017/02/pexels-photo-164381.jpeg)" href="../2questions-to-constantly-ask-while-writing-css-ep1-2/">
+        <section class="post">
+            <h2>2Questions to constantly ask while writing CSS! EP1</h2>
+            <p>Writing DRY and maintainable, flexible code is a huge topic and squeezing it only in 1 post is quite…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Z pyro</a> © 2017</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=2b1c204c9a"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=2b1c204c9a"></script>
+
+</body>

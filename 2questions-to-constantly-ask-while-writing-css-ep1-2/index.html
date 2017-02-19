@@ -1,0 +1,295 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>2Questions to constantly ask while writing CSS! EP1</title>
+    <meta name="description" content="Writing DRY and maintainable, flexible CSS code.">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=2b1c204c9a">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="Z pyro">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="2Questions to constantly ask while writing CSS! EP1">
+    <meta property="og:description" content="Writing DRY and maintainable, flexible CSS code.">
+    <meta property="og:url" content="http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2017/02/pexels-photo-164381.jpeg">
+    <meta property="article:published_time" content="2016-11-12T22:46:04.000Z">
+    <meta property="article:modified_time" content="2017-02-19T20:39:40.000Z">
+    <meta property="article:tag" content="CSS">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/n3d41">
+    <meta property="article:author" content="https://www.facebook.com/NedalKouissi">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="2Questions to constantly ask while writing CSS! EP1">
+    <meta name="twitter:description" content="Writing DRY and maintainable, flexible CSS code.">
+    <meta name="twitter:url" content="http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2017/02/pexels-photo-164381.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="NedalKouissi">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="CSS">
+    <meta name="twitter:site" content="@n3d41">
+    <meta name="twitter:creator" content="@n3d41">
+    <meta property="og:image:width" content="5120">
+    <meta property="og:image:height" content="3413">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Z pyro",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "NedalKouissi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg",
+            "width": 1600,
+            "height": 1067
+        },
+        "url": "http://localhost:2368/author/n3d41/",
+        "sameAs": [
+            "http://zpyro.com",
+            "https://www.facebook.com/NedalKouissi",
+            "https://twitter.com/n3d41"
+        ],
+        "description": "Front-end developer, Sound designer, Music producer.\n"
+    },
+    "headline": "2Questions to constantly ask while writing CSS! EP1",
+    "url": "http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/",
+    "datePublished": "2016-11-12T22:46:04.000Z",
+    "dateModified": "2017-02-19T20:39:40.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2017/02/pexels-photo-164381.jpeg",
+        "width": 5120,
+        "height": 3413
+    },
+    "keywords": "CSS",
+    "description": "Writing DRY and maintainable, flexible CSS code.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Z pyro" href="../rss/index.html">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-87754132-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://i')
+          + '.po.st/static/v4/post-widget.js#publisherKey=u6ti0jqdeftdmveo8ml5';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+     })();
+</script>
+</head>
+<body class="post-template tag-css nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-css" role="presentation"><a href="../tag/css/">CSS</a></li>
+            <li class="nav-javascript" role="presentation"><a href="../tag/javascript/">JavaScript</a></li>
+            <li class="nav-git-github" role="presentation"><a href="../tag/git/">Git &amp; Github</a></li>
+            <li class="nav-video-tutorials" role="presentation"><a href="http://www.youtube.com/channel/UCdb_IhnfM39bL2964cmPWNA?sub_confirmation=1">Video tutorials</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(../content/images/2017/02/pexels-photo-164381.jpeg)">
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-css featured">
+
+        <header class="post-header">
+            <h1 class="post-title">2Questions to constantly ask while writing CSS! EP1</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-11-12">12 November 2016</time>  on <a href="../tag/css/">CSS</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Writing <strong>DRY</strong> and <strong>maintainable</strong>, <strong>flexible</strong> code is a huge topic and squeezing it only in 1 post is quite hard. <br>
+For that reason, I'll teach you two questions you should ask yourself whenever you write any CSS code, so your <strong>code</strong> will be in a much better state.</p>
+
+<blockquote>
+  <p>Wait, Why should I care?</p>
+</blockquote>
+
+<p>If you are working on a big project, you'll suffer. Easy things will start to get hard to tweak because all you have is a mangled, hard to manage code. <br>
+Writing code that looks GOOD and performs GOOD is what you should aim for all the time. <br>
+Let's focus today on "<strong>D</strong>on't <strong>R</strong>epeat <strong>Y</strong>ourself" AKA <strong>DRY</strong>.</p>
+
+<iframe src="http://giphy.com/embed/xT9KVzPCX9M708747S?html5=true&amp;hideSocial=true" width="100%" height="270" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+
+<h3 id="q1isitscalable">Q1: Is it scalable?</h3>
+
+<script async src="http://jsfiddle.net/zpyro/6x9f0jjb/1/embed/css,result/"></script>
+
+<p>What if I change <code>font-size: 18px;</code> to <code>font-size: 45px;</code> <br>
+do you think other related effects like <code>drop-shadow</code> will scale ? <mark>Absouletely not!</mark></p>
+
+<p>Shortly we will introduce redundant code.</p>
+
+<p>to fix it, switch from <code>px</code> to <code>%</code> or <code>em</code> or <code>rem</code>.</p>
+
+<blockquote>
+  <p>Yeah, I do that all the time, that's responsive design basics!</p>
+</blockquote>
+
+<p>We usually sleep on effects, and we think it won't make that much difference.</p>
+
+<h3 id="q2doesitdoonlyoneparticularthing">Q2: Does it do only one particular thing?</h3>
+
+<p>Each function must do only one particular job without mutating the state.</p>
+
+<p>Same idea of Functional programming, to keep it simple ignore <strong>mutate</strong> and replace <code>function</code> with <code>class</code>.</p>
+
+<p>in reality, it's <strong>impossible</strong> to create 100% functional CSS for the whole project. <br>
+Just like code coverage, nobody can get it to a 100%.</p>
+
+<iframe src="http://giphy.com/embed/l3V0o7QyRb08irLag?html5=true" width="100%" height="258" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+
+<p>This where we left our code previously</p>
+
+<script async src="http://jsfiddle.net/zpyro/0hh5jjv1/3/embed/html,css,result/"></script>
+
+<p>Now, with some changes</p>
+
+<script async src="http://jsfiddle.net/zpyro/t92zejkf/1/embed/html,css,result/"></script>
+
+<p>I managed the old code into new small classes. <br>
+Each one of them performs a specific job. All classes are more likely now to get re-used in any new button in our project. That way no code duplication will be introduced in the future. <br>
+For now, I only have buttons, but you can go deeper than the example, and be much precise.</p>
+
+<iframe src="http://giphy.com/embed/3oEjHTVIBFxYiJKRTW?html5=true&amp;hideSocial=true" width="100%" height="359" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+
+<h3 id="lesscodeviaresponsivedesign">Less code via responsive design</h3>
+
+<p>The more responsive your design is, the few media queries you'll use.</p>
+
+<p><em>Here are some points you should pay attention to</em></p>
+
+<ul>
+<li><p>Always use <strong>%</strong>, <strong>ems</strong>, <strong>vw</strong> or <strong>vh</strong></p></li>
+<li><p>Aim for <code>max-width</code> when you want a fixed width for large resolution, so it'll adapt automatically to smaller resolutions.</p></li>
+<li><p>Set any replaced elements such as img, object, video, iframe to <code>max-width: 100%;</code>.</p></li>
+<li><p>Scale your images via <code>object-fit</code> or <code>background-size: cover;</code>.</p></li>
+<li><p>Use FlexBox for your layout.</p></li>
+</ul>
+
+<p><mark>If you find yourself with so many media query rules, go back and re-examine your code.</mark></p>
+
+<iframe src="http://giphy.com/embed/R3stZdF3eCUcE?html5=true&amp;hideSocial=true" width="100%" height="363" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+
+<h3 id="whatsnext">What's next?</h3>
+
+<p>we'll start coding in the next episode. We will be in touch more than twice a week, this is your <strong>Show</strong> :D.</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/n3d41/" style="background-image: url(../content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg)"><span class="hidden">NedalKouissi's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/n3d41/">NedalKouissi</a></h4>
+
+                    <p>Front-end developer, Sound designer, Music producer.
+</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">USA</span>
+                    <span class="author-link icon-link"><a href="http://zpyro.com">http://zpyro.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=2Questions%20to%20constantly%20ask%20while%20writing%20CSS!%20EP1&amp;url=http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2questions-to-constantly-ask-while-writing-css-ep1-2/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(../content/images/2017/02/pexels-photo-68357-min.jpeg)" href="../background-clip/">
+        <section class="post">
+            <h2>How To create a translucent border or padding without background color</h2>
+            <p>You can read and watch previous episodes here. Part1. What's the problem ? Applying a translucent dotted border to a…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Z pyro</a> © 2017</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=2b1c204c9a"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=2b1c204c9a"></script>
+
+</body>
