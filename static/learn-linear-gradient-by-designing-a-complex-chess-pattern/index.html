@@ -1,0 +1,627 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Learn linear-gradient() by designing a complex chess pattern</title>
+    <meta name="description" content="Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.
+Then we will design a chess board using CSS3.">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=6e1dcb4925">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
+    
+    <meta property="og:site_name" content="Z PYRO">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Learn linear-gradient() by designing a complex chess pattern">
+    <meta property="og:description" content="Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.
+Then we will design a chess board using CSS3.">
+    <meta property="og:url" content="http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2017/02/chess-140340-min.jpg">
+    <meta property="article:published_time" content="2016-12-06T23:50:40.000Z">
+    <meta property="article:modified_time" content="2017-02-19T21:40:00.000Z">
+    <meta property="article:tag" content="CSS">
+    
+    <meta property="article:publisher" content="https://www.facebook.com/n3d41">
+    <meta property="article:author" content="https://www.facebook.com/NedalKouissi">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Learn linear-gradient() by designing a complex chess pattern">
+    <meta name="twitter:description" content="Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.
+Then we will design a chess board using CSS3.">
+    <meta name="twitter:url" content="http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/">
+    <meta name="twitter:image" content="http://localhost:2368/content/images/2017/02/chess-140340-min.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="NedalKouissi">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="CSS">
+    <meta name="twitter:site" content="@n3d41">
+    <meta name="twitter:creator" content="@n3d41">
+    <meta property="og:image:width" content="5184">
+    <meta property="og:image:height" content="3456">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Z PYRO",
+        "logo": "http://localhost:2368/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "NedalKouissi",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://localhost:2368/content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg",
+            "width": 1600,
+            "height": 1067
+        },
+        "url": "http://localhost:2368/author/n3d41/",
+        "sameAs": [
+            "http://zpyro.com",
+            "https://www.facebook.com/NedalKouissi",
+            "https://twitter.com/n3d41"
+        ],
+        "description": "Front-end developer, Sound designer, Music producer.\n"
+    },
+    "headline": "Learn linear-gradient() by designing a complex chess pattern",
+    "url": "http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/",
+    "datePublished": "2016-12-06T23:50:40.000Z",
+    "dateModified": "2017-02-19T21:40:00.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:2368/content/images/2017/02/chess-140340-min.jpg",
+        "width": 5184,
+        "height": 3456
+    },
+    "keywords": "CSS",
+    "description": "Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.\nThen we will design a chess board using CSS3.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Z PYRO" href="../rss/index.html">
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-87754132-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://i')
+          + '.po.st/static/v4/post-widget.js#publisherKey=u6ti0jqdeftdmveo8ml5';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+     })();
+</script>
+</head>
+<body class="post-template tag-css nav-closed">
+
+    
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(../content/images/2017/02/chess-140340-min.jpg)">
+    <nav class="main-nav overlay clearfix">
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-css">
+
+        <header class="post-header">
+            <h1 class="post-title">Learn linear-gradient() by designing a complex chess pattern</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-12-06">06 December 2016</time>  on <a href="../tag/css/">CSS</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>You can read and watch previous episodes <a href="http://www.zpyro.com/tag/css/">here!</a></p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This is what you'll design by the end of this tutorial</p>
+
+<p>You'll be able to do it with the help of <code>linear-gradient()</code> and on top of that, Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.</p>
+
+<h2 id="1whatsthebasicusage">1. What's the basic usage?</h2>
+
+<p>This is the syntax of <code>linear-gradient()</code>. I took it from <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient">MDN</a>.</p>
+
+<pre><code>background: linear-gradient([ [ [ &lt;angle&gt; | to [top | bottom] || [left | right] ],]? &lt;color-stop&gt;[, &lt;color-stop&gt;]+);  
+</code></pre>
+
+<blockquote>
+  <p>What the hell is that?</p>
+</blockquote>
+
+<p>Most of your future time will be spent on documentation, so I should probably make it easy for you.</p>
+
+<iframe src="http://giphy.com/embed/IXLmqzFKuqyCQ?html5=true" width="100%" height="301" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+
+<ul>
+<li><p>brackets<strong>[]</strong> to make a group.</p></li>
+<li><p>anything followed by <strong>?</strong>, means it's not required and it could be skipped.</p></li>
+<li><p><strong>|</strong> that's OR. I'm just saying don't get mad.</p></li>
+</ul>
+
+<p>in our example we have <code>[left | right]</code> which means we can add the keyword <strong>left</strong> or <strong>right</strong> to <code>linear-gradient()</code> also we can omit them.</p>
+
+<ul>
+<li>Whenever you see <strong>+</strong> know that you can have as many as you want of that property value.</li>
+</ul>
+
+<p>Back to our example, we have <code>[, &lt;color-stop&gt;]+</code> it means we can add as much <em>colors-stop</em> as we want.</p>
+
+<p><strong>Still confused?</strong> No worries, imma show you how I did the first part <em>step by step</em></p>
+
+<p><code>[ [ [ &lt;angle&gt; | to [top | bottom] || [left | right] ],]?</code></p>
+
+<p>First, I looked out for the first comma <code>,</code> everything before it, is just <strong>one</strong> value property.</p>
+
+<p><code>[ Value property ,]?</code></p>
+
+<p>and that value property isn't required, becuase it's wrapped inside <strong>[]?</strong>  so we can omit it if we want to.</p>
+
+<p>all we have now is <br>
+<code>value property</code></p>
+
+<p>in other words</p>
+
+<p><code>[ &lt;angle&gt; | to [top | bottom] || [left | right] ]</code></p>
+
+<p>The first option here is the angle, something like <code>45deg</code> or <code>90deg</code>. <br>
+The second option is the keyword <code>to</code> followed by top <em>or</em> bottom and what's interesting is <em>top or bottom</em> could also be followed by <em>left or right</em>. You can tell it by <code>||</code>.</p>
+
+<p>Okay here's some combination I <em>could</em> make.</p>
+
+<pre><code>background: linear-gradient(45deg);  
+background: linear-gradient(to top);  
+background: linear-gradient(to bottom left);  
+background: linear-gradient(to bottom right);  
+background: linear-gradient(to left);  
+</code></pre>
+
+<p>Now you have abilities to read the second part <code>&lt;color-stop&gt;[, &lt;color-stop&gt;]+</code>.</p>
+
+<iframe src="http://giphy.com/embed/3o7aTCbTctRjgnKCpq" width="100%" height="364" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+
+<p>Open your text editor and follow, I'll start with <code>div</code></p>
+
+<pre><code>&lt;div class="box"&gt;&lt;/div&gt;  
+</code></pre>
+
+<p>in css imma add</p>
+
+<pre><code>.box {
+  width: 50%;
+  height: 6em;
+  background: red;
+}
+</code></pre>
+
+<p>we'll have something like this</p>
+
+<p><code>liner-gradient</code> is a function that goes with <code>background</code> or <code>background-image</code>. Let's remove that red color and replace it with this</p>
+
+<pre><code>background: linear-gradient(to right, black, white);  
+</code></pre>
+
+<p>the results are</p>
+
+<p>I could also have written the last line as follow  </p>
+
+<pre><code>background: linear-gradient(90deg, black, white);  
+</code></pre>
+
+<blockquote>
+  <p>Wait, when should I use <code>deg</code> instead of keywords?</p>
+</blockquote>
+
+<p>This is what keywords can do  </p>
+
+<pre><code>to top  
+to top left  
+to top right
+
+to bottom  
+to bottom left  
+to bottom right
+
+to left  
+to right  
+</code></pre>
+
+<p>As you see they are limited, so if you need more control or you feel lazy to type, go with <code>deg</code>.</p>
+
+<p>Things get interesting when we add percentages to any color stop</p>
+
+<pre><code>background: linear-gradient(90deg, black 10%, red);  
+</code></pre>
+
+<p>Now it's time to understand how <em>color stop</em> work.</p>
+
+<p>Setting both black and red at 50%</p>
+
+<pre><code>background: linear-gradient(90deg, black 50%, red 50%);  
+</code></pre>
+
+<p>there is no <em>fade in</em> or <em>fade out</em>, between these two colors.</p>
+
+<p>let's change black to 40%. I added a blue separator to help you understand what's going on</p>
+
+<pre><code>background: linear-gradient(90deg, black 40%, red 50%);  
+</code></pre>
+
+<p>black is painted from 0% to 40% <br>
+red is painted from 50% to 100%</p>
+
+<p>The blue separator is 40% from the left, Red color started at 50%, the fade happened in between that 40% 50% space. <br>
+You get it ?</p>
+
+<p>something else you need to know, this line</p>
+
+<pre><code>background: linear-gradient(90deg, black 40%, red 50%);  
+</code></pre>
+
+<p>is equally the same as this line</p>
+
+<pre><code>background:  
+  linear-gradient(
+    90deg, 
+    black 0%, black 40%,
+    red 50%, red 100%
+  );
+</code></pre>
+
+<p>Now the picture must be clear, But It gets complicated when we start adding more than two colors, for that reason imma show you how to deal with it.</p>
+
+<p>You still remember when we did <code>50% black, 50% red</code></p>
+
+<p>Because we have two different colors at the same position, the transition between these two is <em>none</em> rather than <em>smooth</em>.</p>
+
+<p>Now I need to show you how to create the same effect in a different way, it'll come in handy when we start using multiple colors</p>
+
+<pre><code>background: linear-gradient(90deg, black 50%, red 0);  
+</code></pre>
+
+<p>We set the second color's position at <code>0</code>, the browser will automatically adjust its position to be equal to the previous color stop, which is 50%.</p>
+
+<p>When I use multiple colors stop, I always start simple something like below</p>
+
+<pre><code>background: linear-gradient(90deg,  
+  #BFBDC1 20%,
+  #6D6A75 0, #6D6A75 40%,
+  #1E1C22 0, #1E1C22 60%,
+  #DEB841 0, #DEB841 80%,
+  #DE9E36 0, #DE9E36
+  );
+</code></pre>
+
+<p>color1 ends at 20% <br>
+color 2 starts at 20% <br>
+color3 starts at 40% <br>
+color4 starts at 60% <br>
+color5 starts at 80%</p>
+
+<p>Then I change the smoothness between colors to my taste</p>
+
+<pre><code>background: linear-gradient(90deg,  
+  #BFBDC1 10%,
+  #6D6A75 30%,
+  #1E1C22 40%,
+  #DEB841 80%,
+  #DE9E36
+  );
+</code></pre>
+
+<p>I've removed all hard colors stop <code>colorX 0,</code>, they were there as guides no more :)</p>
+
+<p>now we have something like this</p>
+
+<p>It's much easier to lay down your colors then fade them till you get the end result.</p>
+
+<p>You can create beautiful fades with this technique</p>
+
+<pre><code>background: linear-gradient(90deg,  
+  #EAEAEA 4%,
+  #C1C1C2 30%,
+  #98979A 40%,
+  #6F6E72 80%,
+  #323036
+  );
+</code></pre>
+
+<h2 id="2howtocreatepatternsusinglinearbackground">2. How to create patterns using linear-background?</h2>
+
+<p>Let's create something that we may often encounter in our daily basis. <br>
+Tiny patterns to spice any background you want, in our example we'll work on <code>body {}</code>.  </p>
+
+<pre><code>background:  
+  repeating-linear-gradient(90deg, 
+    #EAEAEA 0, #EAEAEA 20%,
+    white 0, #EAEAEA 40%,
+    white 0, #EAEAEA 60%
+  );
+</code></pre>
+
+<blockquote>
+  <p>Wait, REPEATING? What's that?</p>
+</blockquote>
+
+<p>It works exactly like linear-background, but It repeats the pattern automatically.</p>
+
+<p>So this is what I have</p>
+
+<p>By now, you're more than able to do the same. Let's see what will happen if we make that pattern so small via <code>background-size</code>.</p>
+
+<pre><code>background-size: 0.2em 1em;  
+</code></pre>
+
+<p>the end result is</p>
+
+<p><img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-00-38-30.png" alt=""></p>
+
+<p>Beautiful right ?</p>
+
+<h2 id="3takeittothenextlevel">3. Take it to the next level</h2>
+
+<iframe src="http://gifs.com/embed/future-wicked-k5BYPX" frameborder="0" scrolling="no" width="100%" height="360px" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);"></iframe>
+
+<p>Wouldn't be nice if we spice it a bit with some randomness? So the user wouldn't be able to notice the repitive pattern.</p>
+
+<p>I'ma choose some bright colors to make it easy for you to follow.</p>
+
+<pre><code>repeating-linear-gradient(90deg,  
+    black 0, black 20%,
+    red 0, red 40%,
+    white 0, #EAEAEA 60%
+  );
+</code></pre>
+
+<p>This is what we have</p>
+
+<p>We need to go back to <code>linear-gradient</code> instead of <code>repeating-linear-gradient</code>, because we gonna layer them so we could add randomness to make it look less repetitive.</p>
+
+<pre><code>linear-gradient(90deg,  
+    black 0, black 20%,
+    red 0, red 40%,
+    white 0, #EAEAEA 60%
+);
+</code></pre>
+
+<p>The pattern ain't repetitive anymore, we need to create that repetition manually</p>
+
+<pre><code>background:  
+  linear-gradient(90deg, 
+    black 0, black 20%,
+    red 0, red 40%,
+    white 0, #EAEAEA 60%,
+    red 0, red 80%,
+    black 0, black
+);
+</code></pre>
+
+<p>results are now similar to our previous <code>repeating-linear-gradient</code></p>
+
+<p>When we type <code>black 20%, red 0</code>, we're saying that we want 20% of space to be black then after that we will have a new color stop which will be red. <br>
+ignore red for now and act like you don't know what the next color could be.</p>
+
+<p>I can write the previous line as</p>
+
+<pre><code>background: linear-gradient(90deg, black 20%, transparent 0);  
+</code></pre>
+
+<p>guess what? Now I can layer the second red color stop like the following</p>
+
+<pre><code>background:  
+  linear-gradient(90deg, black 20%, transparent 0),
+  linear-gradient(90deg, red 40%, transparent 0);
+</code></pre>
+
+<p>And after layering all the remaining layers here's the final result</p>
+
+<pre><code>background:  
+  linear-gradient(90deg, black 20%, transparent 0),
+  linear-gradient(90deg, red 40%, transparent 0),
+  linear-gradient(90deg, #EAEAEA 60%, transparent 0),
+  linear-gradient(90deg, red 80%, transparent 0),
+  linear-gradient(90deg, black 100%, transparent 0);
+</code></pre>
+
+<p>Back to <code>background-size</code> we can achieve some crazy randomness by controlling each color stop space</p>
+
+<pre><code>background-size:  
+  2em 100%,
+  1.6em 100%,
+  1.4em 100%,
+  1em 100%,
+  0.8em 100%;
+</code></pre>
+
+<p>To maximize it more, I'ma use prime numbers. This trick could also help when it comes to <strong>animation</strong> <em>(I mean prime numbers).</em>  </p>
+
+<pre><code>background:  
+  linear-gradient(90deg, black 19%, transparent 0),
+  linear-gradient(90deg, red 41%, transparent 0),
+  linear-gradient(90deg, #EAEAEA 61%, transparent 0),
+  linear-gradient(90deg, red 83%, transparent 0),
+  linear-gradient(90deg, black 97%, transparent 0);
+  background-size: 19px 100%;
+background-size:  
+  19px 100%,
+  13px 100%,
+  17px 100%,
+  7px 100%,
+  10px 100%;
+</code></pre>
+
+<p>Cool, now I can safely go to my favorite colors, As a said before I used these colors just to make it easy for you to follow :)</p>
+
+<p>And you can also change <code>deg</code> of each layer <br>
+for example, the first layer is <code>90deg</code>, the second could be <code>45deg</code> and so on ...</p>
+
+<p>This is the final result</p>
+
+<p>You can choose extreme light colors to make it blend very well with the white <code>body</code> background.</p>
+
+<h2 id="4letsdesignacheckboard">4. Let's design a checkboard!</h2>
+
+<p>You might think it's easy to make a checkboard pattern in CSS.  That's true, but it's quite trickier than one might expect.</p>
+
+<p>I'ma start with triangles</p>
+
+<pre><code>body {  
+  background: 
+    linear-gradient(45deg, black 25%, transparent 0);
+  background-size: 1em 1em;
+}
+</code></pre>
+
+<p>If we flip each color stop we can create triangles of the opposite direction and you know what will happen if we merge the two layers.</p>
+
+<blockquote>
+  <p>Hold on, Triangles! Why?</p>
+</blockquote>
+
+<p>You may think creating two squares will solve the problem, but in CSS you can't create space around them and when the layer merge will happen, all you gonna see is a solid background.</p>
+
+<p>Now, if we combine the two tringle layers, this is what we gonna see</p>
+
+<pre><code>background:  
+    linear-gradient(45deg, black 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, black 0);
+</code></pre>
+
+<p>In order to combine them into a square, we need to nudge the second layer by half the tile size</p>
+
+<pre><code>background:  
+  linear-gradient(45deg, black 25%, transparent 0),
+  linear-gradient(45deg, transparent 75%, black 0);
+background-size: 1em 1em;  
+background-position: 0 0, 0.5em 0.5em;  
+</code></pre>
+
+<p>I'm going to double all layers and nudge them, then change the colors</p>
+
+<pre><code>body {  
+  background-color: #E7E8E8;
+  background-image: 
+    linear-gradient(45deg, #D0D2D1 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #B9BBBB 0),
+    linear-gradient(45deg, #8B8E8E 25%, transparent 0),
+    linear-gradient(45deg, transparent 75%, #A2A5A4 0);
+  background-size: 4em 4em;
+  background-position:
+    0 0,
+    2em 2em,
+    2em 2em,
+    4em 4em;
+}
+</code></pre>
+
+<p>And finally :)</p>
+
+<h2 id="5whatsnext">5. What's next?</h2>
+
+<p>I'm hard working on creating new training video series to drastically help you become a stunning web developer.</p>
+
+<p><a href="http://paypal.me/Zpyro">Donate</a> to help make these training courses FREE. <strong>Learning can’t wait.</strong>
+ <a href="http://paypal.me/Zpyro">Paypal.me/Zpyro</a></p>
+
+<iframe src="http://giphy.com/embed/3o8dp4wkEBpLiDEZ3y?html5=true&amp;hideSocial=true" width="100%" height="270" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+
+<hr>
+
+<p><em>Zpyro</em> Youtube Channel is <a href="http://www.youtube.com/channel/UCdb_IhnfM39bL2964cmPWNA?sub_confirmation=1">here</a>, Subscribe to get notified when I launch these courses.</p>
+            <div id="disqus_thread"></div>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/n3d41/" style="background-image: url(../content/images/2017/02/53d63d3e73a0429eb753f50fb7965ef5-1.jpg)"><span class="hidden">NedalKouissi's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/n3d41/">NedalKouissi</a></h4>
+
+                    <p>Front-end developer, Sound designer, Music producer.
+</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">USA</span>
+                    <span class="author-link icon-link"><a href="http://zpyro.com">http://zpyro.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Learn%20linear-gradient()%20by%20designing%20a%20complex%20chess%20pattern&amp;url=http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story prev " style="background-image: url(../content/images/2017/02/pexels-photo-167699--1--min.jpeg)" href="../position-any-background-image-with-offsets-to-any-container-corner/">
+        <section class="post">
+            <h2>Position any background image with offsets in all corners</h2>
+            <p>You can read and watch previous episodes here! What's the problem? It'll be an easy task if I told…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">NedalKouissi</a> © 2017</section>
+            <section class="poweredby">I play <a href="index.html#">differently.</a></section>
+
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+
+    <script type="text/javascript" src="../assets/js/index.js?v=6e1dcb4925"></script>
+    <script type="text/javascript" src="../assets/js/prism.js?v=6e1dcb4925"></script>
+
+</body>
