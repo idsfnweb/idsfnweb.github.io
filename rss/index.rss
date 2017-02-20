@@ -1,11 +1,9 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Z pyro</title><description>Dedicated to helping you become a stunning developer.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Sun, 19 Feb 2017 21:09:56 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Learn linear-gradient() by designing a complex chess pattern</title><description>Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Z PYRO</title><description>Dedicated to helping you become a stunning developer.</description><link>http://localhost:2368/</link><generator>Ghost 0.11</generator><lastBuildDate>Mon, 20 Feb 2017 06:04:21 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Learn linear-gradient() by designing a complex chess pattern</title><description>Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.
 Then we will design a chess board using CSS3.</description><link>http://localhost:2368/learn-linear-gradient-by-designing-a-complex-chess-pattern/</link><guid isPermaLink="false">0286c7fd-2d36-4c86-9360-426e0ee001e9</guid><category>CSS</category><dc:creator>NedalKouissi</dc:creator><pubDate>Tue, 06 Dec 2016 23:50:40 GMT</pubDate><media:content url="http://localhost:2368/content/images/2017/02/chess-140340-min.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2017/02/chess-140340-min.jpg" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;p&gt;You can read and watch previous episodes &lt;a href="http://www.zpyro.com/tag/css/"&gt;here!&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;This is what you'll design by the end of this tutorial&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-19-22-59.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;You'll be able to do it with the help of &lt;code&gt;linear-gradient()&lt;/code&gt; and on top of that, Imma show you how to create smooth patterns and stripes to add a touch of professionalism to your design.&lt;/p&gt;
 
@@ -87,16 +85,12 @@ background: linear-gradient(to left);
 
 &lt;p&gt;we'll have something like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-15-27-08.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;liner-gradient&lt;/code&gt; is a function that goes with &lt;code&gt;background&lt;/code&gt; or &lt;code&gt;background-image&lt;/code&gt;. Let's remove that red color and replace it with this&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;background: linear-gradient(to right, black, white);  
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;the results are&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-15-32-57.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;I could also have written the last line as follow  &lt;/p&gt;
 
@@ -128,8 +122,6 @@ to right
 &lt;pre&gt;&lt;code&gt;background: linear-gradient(90deg, black 10%, red);  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-15-49-49.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;Now it's time to understand how &lt;em&gt;color stop&lt;/em&gt; work.&lt;/p&gt;
 
 &lt;p&gt;Setting both black and red at 50%&lt;/p&gt;
@@ -137,16 +129,12 @@ to right
 &lt;pre&gt;&lt;code&gt;background: linear-gradient(90deg, black 50%, red 50%);  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-15-53-09.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;there is no &lt;em&gt;fade in&lt;/em&gt; or &lt;em&gt;fade out&lt;/em&gt;, between these two colors.&lt;/p&gt;
 
 &lt;p&gt;let's change black to 40%. I added a blue separator to help you understand what's going on&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;background: linear-gradient(90deg, black 40%, red 50%);  
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-16-01-08.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;black is painted from 0% to 40% &lt;br&gt;
 red is painted from 50% to 100%&lt;/p&gt;
@@ -173,8 +161,6 @@ You get it ?&lt;/p&gt;
 
 &lt;p&gt;You still remember when we did &lt;code&gt;50% black, 50% red&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-15-53-09.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;Because we have two different colors at the same position, the transition between these two is &lt;em&gt;none&lt;/em&gt; rather than &lt;em&gt;smooth&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now I need to show you how to create the same effect in a different way, it'll come in handy when we start using multiple colors&lt;/p&gt;
@@ -194,8 +180,6 @@ You get it ?&lt;/p&gt;
   #DE9E36 0, #DE9E36
   );
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-22-18-13.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;color1 ends at 20% &lt;br&gt;
 color 2 starts at 20% &lt;br&gt;
@@ -218,8 +202,6 @@ color5 starts at 80%&lt;/p&gt;
 
 &lt;p&gt;now we have something like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-22-28-51.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;It's much easier to lay down your colors then fade them till you get the end result.&lt;/p&gt;
 
 &lt;p&gt;You can create beautiful fades with this technique&lt;/p&gt;
@@ -232,8 +214,6 @@ color5 starts at 80%&lt;/p&gt;
   #323036
   );
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-05-22-36-23.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;h2 id="2howtocreatepatternsusinglinearbackground"&gt;2. How to create patterns using linear-background?&lt;/h2&gt;
 
@@ -255,8 +235,6 @@ Tiny patterns to spice any background you want, in our example we'll work on &lt
 &lt;p&gt;It works exactly like linear-background, but It repeats the pattern automatically.&lt;/p&gt;
 
 &lt;p&gt;So this is what I have&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-00-31-26.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;By now, you're more than able to do the same. Let's see what will happen if we make that pattern so small via &lt;code&gt;background-size&lt;/code&gt;.&lt;/p&gt;
 
@@ -286,8 +264,6 @@ Tiny patterns to spice any background you want, in our example we'll work on &lt
 
 &lt;p&gt;This is what we have&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-01-59-35.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;We need to go back to &lt;code&gt;linear-gradient&lt;/code&gt; instead of &lt;code&gt;repeating-linear-gradient&lt;/code&gt;, because we gonna layer them so we could add randomness to make it look less repetitive.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;linear-gradient(90deg,  
@@ -296,8 +272,6 @@ Tiny patterns to spice any background you want, in our example we'll work on &lt
     white 0, #EAEAEA 60%
 );
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-04-23.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;The pattern ain't repetitive anymore, we need to create that repetition manually&lt;/p&gt;
 
@@ -312,8 +286,6 @@ Tiny patterns to spice any background you want, in our example we'll work on &lt
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;results are now similar to our previous &lt;code&gt;repeating-linear-gradient&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-01-59-35.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;When we type &lt;code&gt;black 20%, red 0&lt;/code&gt;, we're saying that we want 20% of space to be black then after that we will have a new color stop which will be red. &lt;br&gt;
 ignore red for now and act like you don't know what the next color could be.&lt;/p&gt;
@@ -330,8 +302,6 @@ ignore red for now and act like you don't know what the next color could be.&lt;
   linear-gradient(90deg, red 40%, transparent 0);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-13-27.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;And after layering all the remaining layers here's the final result&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;background:  
@@ -342,8 +312,6 @@ ignore red for now and act like you don't know what the next color could be.&lt;
   linear-gradient(90deg, black 100%, transparent 0);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-01-59-35.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;Back to &lt;code&gt;background-size&lt;/code&gt; we can achieve some crazy randomness by controlling each color stop space&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;background-size:  
@@ -353,8 +321,6 @@ ignore red for now and act like you don't know what the next color could be.&lt;
   1em 100%,
   0.8em 100%;
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-22-19.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;To maximize it more, I'ma use prime numbers. This trick could also help when it comes to &lt;strong&gt;animation&lt;/strong&gt; &lt;em&gt;(I mean prime numbers).&lt;/em&gt;  &lt;/p&gt;
 
@@ -373,18 +339,12 @@ background-size:
   10px 100%;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-32-00.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;Cool, now I can safely go to my favorite colors, As a said before I used these colors just to make it easy for you to follow :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-39-48.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;And you can also change &lt;code&gt;deg&lt;/code&gt; of each layer &lt;br&gt;
 for example, the first layer is &lt;code&gt;90deg&lt;/code&gt;, the second could be &lt;code&gt;45deg&lt;/code&gt; and so on ...&lt;/p&gt;
 
 &lt;p&gt;This is the final result&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-02-42-49.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;You can choose extreme light colors to make it blend very well with the white &lt;code&gt;body&lt;/code&gt; background.&lt;/p&gt;
 
@@ -401,8 +361,6 @@ for example, the first layer is &lt;code&gt;90deg&lt;/code&gt;, the second could
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-18-55-37.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;If we flip each color stop we can create triangles of the opposite direction and you know what will happen if we merge the two layers.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -418,8 +376,6 @@ for example, the first layer is &lt;code&gt;90deg&lt;/code&gt;, the second could
     linear-gradient(45deg, transparent 75%, black 0);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-19-05-55.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
-
 &lt;p&gt;In order to combine them into a square, we need to nudge the second layer by half the tile size&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;background:  
@@ -428,8 +384,6 @@ for example, the first layer is &lt;code&gt;90deg&lt;/code&gt;, the second could
 background-size: 1em 1em;  
 background-position: 0 0, 0.5em 0.5em;  
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-19-10-49.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;p&gt;I'm going to double all layers and nudge them, then change the colors&lt;/p&gt;
 
@@ -450,8 +404,6 @@ background-position: 0 0, 0.5em 0.5em;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;And finally :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/12/Screenshot-from-2016-12-06-19-22-59.png" alt="Learn linear-gradient() by designing a complex chess pattern"&gt;&lt;/p&gt;
 
 &lt;h2 id="5whatsnext"&gt;5. What's next?&lt;/h2&gt;
 
@@ -697,7 +649,7 @@ background-position: calc(100% - 0.4em) calc(100% - 1em);
 &lt;h1 id="3whatsnext"&gt;3. What's next?&lt;/h1&gt;
 
 &lt;p&gt;See you next episode :)&lt;/p&gt;</content:encoded></item><item><title>How to add depth to your design using multiple borders</title><description>Using box-shadow, outlines, background-clip to create multiple borders.
-Creating multiple orders helps to add depth and realism to your design.</description><link>http://localhost:2368/how-to-add-depth-to-your-design-using-multiple-borders/</link><guid isPermaLink="false">7b3fa49c-e9ef-4b2c-be86-2b32d44d381a</guid><category>CSS</category><dc:creator>NedalKouissi</dc:creator><pubDate>Wed, 23 Nov 2016 12:09:16 GMT</pubDate><media:content url="http://localhost:2368/content/images/2017/02/pexels-photo-87322.jpeg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2017/02/pexels-photo-87322.jpeg" alt="How to add depth to your design using multiple borders"&gt;&lt;p&gt;You can read and watch previous episodes &lt;a href="http://www.zpyro.com/tag/css/"&gt;here!&lt;/a&gt;&lt;/p&gt;
+Creating multiple orders helps to add depth and realism to your design.</description><link>http://localhost:2368/how-to-add-depth-to-your-design-using-multiple-borders/</link><guid isPermaLink="false">7b3fa49c-e9ef-4b2c-be86-2b32d44d381a</guid><category>CSS</category><dc:creator>NedalKouissi</dc:creator><pubDate>Wed, 23 Nov 2016 12:09:16 GMT</pubDate><content:encoded>&lt;p&gt;You can read and watch previous episodes &lt;a href="http://www.zpyro.com/tag/css/"&gt;here!&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id="isthereanyusecases"&gt;Is there any use cases?&lt;/h2&gt;
 
